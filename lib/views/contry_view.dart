@@ -37,7 +37,7 @@ class _CountryListState extends State<CountryList> {
                     elevation: 5.0,
                     child: ListTile(
                       leading: SizedBox(
-                        width: 50, // definir uma largura fixa
+                        width: 50, 
                         child: CountryFlag.fromCountryCode(
                             country.iso2.toString()),
                       ),
